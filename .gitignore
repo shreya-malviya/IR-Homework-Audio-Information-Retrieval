@@ -1,0 +1,75 @@
+fronted/node_modules
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.eggs/
+*.log
+*.sqlite3
+
+# === Virtual Environments ===
+venv/
+env/
+ENV/
+.venv/
+.Python
+
+# === FastAPI/Uvicorn related ===
+*.db
+instance/
+*.pid
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === VSCode ===
+.vscode/
+
+# === PyCharm ===
+.idea/
+
+# === Environment Files ===
+.env
+.env.*
+
+# === Testing ===
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# === Mypy / Pylint / Black ===
+.mypy_cache/
+.pytest_cache/
+.pytype/
+.cache/
+*.lint
+
+# === Frontend (if inside FastAPI project) ===
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/.nuxt/
+
+# === Jupyter (if used for experimentation) ===
+*.ipynb
+.ipynb_checkpoints/
+
+# === Backup/Temp Files ===
+*.bak
+*.tmp
+*.swp
+*~
+clonedData
+app/data
+ai
